@@ -6,4 +6,4 @@
 <p>​💸​💹​ a budget planner to protect our economy</p>
 <br>
  
-<img src='images/buget.gif'>
+<img src='images/budget.gif'>
