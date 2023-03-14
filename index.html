@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>budget planning</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="logo"><lottie-player src="https://assets3.lottiefiles.com/private_files/lf30_tcuqw7ib.json"  background="transparent"  loop  autoplay></lottie-player>
+    </div>
+    <div class="container">
+        <h1> Budget Planner</h1>
+        <h1>Welcome,<input type="text" autofocus placeholder="enter your name"/></h1>
+        
+
+        <form >
+
+            <div class="double">
+                <div class="field">
+                    <label>spending:</label>
+                    <input id="harcama" type="text">
+                </div>
+                <div class="field">
+                    <label> price: </label>
+                    <input id="fiyat" type="number">
+                </div>
+            </div>
+
+            <div class="double" id="sec-double">
+                <div>
+                    <input id="odeme" type="checkbox">
+                    <label for="odeme">paid</label>
+                </div>
+                <button id="eklemeBtn">Add</button>
+            </div>
+
+        </form>
+            <div class="toplam-box"> total expenditure <span id="toplam">0 </span> &#x20BA</div>
+            <div class="liste">
+                
+            </div>
+    </div>  
+   
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
